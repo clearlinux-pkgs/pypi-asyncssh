@@ -4,7 +4,7 @@
 #
 Name     : pypi-asyncssh
 Version  : 2.10.1
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/28/3a/eb579c1ef48f7a372d2f8b0959c4624988c9e339e0b2e979acca16718609/asyncssh-2.10.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/28/3a/eb579c1ef48f7a372d2f8b0959c4624988c9e339e0b2e979acca16718609/asyncssh-2.10.1.tar.gz
 Summary  : AsyncSSH: Asynchronous SSHv2 client and server library
