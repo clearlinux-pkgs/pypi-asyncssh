@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-asyncssh
-Version  : 2.16.0
-Release  : 118
-URL      : https://files.pythonhosted.org/packages/45/b6/d8a7953668ed381664ead57e8ae0fa35dd0b3eb53f679d0ab0f53204ccb7/asyncssh-2.16.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/45/b6/d8a7953668ed381664ead57e8ae0fa35dd0b3eb53f679d0ab0f53204ccb7/asyncssh-2.16.0.tar.gz
+Version  : 2.17.0
+Release  : 119
+URL      : https://files.pythonhosted.org/packages/32/34/007ba4c65dc15ad394ff50d6ce272bcc028a8824ab1658c5fe5c480be515/asyncssh-2.17.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/32/34/007ba4c65dc15ad394ff50d6ce272bcc028a8824ab1658c5fe5c480be515/asyncssh-2.17.0.tar.gz
 Summary  : AsyncSSH: Asynchronous SSHv2 client and server library
 Group    : Development/Tools
 License  : EPL-2.0
@@ -58,10 +58,10 @@ python3 components for the pypi-asyncssh package.
 
 
 %prep
-%setup -q -n asyncssh-2.16.0
-cd %{_builddir}/asyncssh-2.16.0
+%setup -q -n asyncssh-2.17.0
+cd %{_builddir}/asyncssh-2.17.0
 pushd ..
-cp -a asyncssh-2.16.0 buildavx2
+cp -a asyncssh-2.17.0 buildavx2
 popd
 
 %build
@@ -69,7 +69,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1724084654
+export SOURCE_DATE_EPOCH=1725305403
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
