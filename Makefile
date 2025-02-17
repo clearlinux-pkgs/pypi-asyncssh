@@ -1,5 +1,5 @@
 PKG_NAME := pypi-asyncssh
-URL = https://files.pythonhosted.org/packages/75/85/c723aa7dd69570a31b6638c1405e659712f18f569f280da2da27989445d3/asyncssh-2.19.0.tar.gz
+URL = https://files.pythonhosted.org/packages/43/f5/365489721f98bb1cd5e3d48f397598e1be5b2695301e2d685b64cfdab51d/asyncssh-2.20.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
